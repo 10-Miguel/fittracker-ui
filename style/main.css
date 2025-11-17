@@ -1,0 +1,99 @@
+/* ESTILOS GENERALES */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  background: #ffffff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  background: #e74c3c;
+  color: white;
+  padding: 40px 20px;
+}
+
+.btn-primary {
+  background: white;
+  border: none;
+  padding: 10px 20px;
+  color: #e74c3c;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* WORKOUTS */
+.workouts {
+  padding: 20px;
+}
+
+.workout-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.workout-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* STATS */
+.stats {
+  padding: 20px;
+  background: #ffffff;
+  margin-top: 20px;
+}
+
+.stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stat-card {
+  background: #e74c3c;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
